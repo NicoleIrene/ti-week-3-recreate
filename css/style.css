@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Slabo 27px', serif;
+}
+.clearfix:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.main-nav{
+	min-height: 15px;
+	line-height: 5px;
+	background:#17BEBB;
+	
+}
+.main-nav ul{
+	list-style:none;
+	float:right;
+}
+.main-nav li{
+	float:left;
+	padding: 15px;
+	margin: 25px;
+	padding-right:20px;
+}
+a{
+	color:#FFF;
+	text-decoration: none;
+	font-size: 20px;
+}
+a:hover{
+	text-decoration: underline;
+	background-color: #FFF;
+	opacity:0.5;
+	padding: 7px;
+	color:#2E294E;
+}
+h1{
+	text-align: center;
+	color:#BD1E1E;
+	font-size: 60px;
+	text-shadow: 3px 3px #8EA604;
+}
+
+div#footer li{
+	width: 200px;
+	display:block;
+	float:left;
+	text-align:center;
+
+}
+.header{
+	background-image: url("../images/headerfood.jpg");
+	padding: 50px 0;
+	background-size:cover;
+	background-position: center; 
+	min-height: 275px;
+	line-height: 20px;
+}
+.row{
+	display:flex;
+}
+.col{
+	flex:1;
+	padding: 10px;
+	margin: 10px;
+	background:#17BEBB;
+	color:#FFF;
+}
+.col img[src="images/bakedgood.jpg"]{
+	height:150px;
+	width:150px;
+	margin-left:130px;
+	align-items: center;
+	border:5px solid #FFF;
+}
+.col1{
+	flex:1;
+	padding: 10px;
+	margin: 10px;
+	background:#17BEBB;
+	color:#FFF;
+}
+.col1 img[src="images/redcake.jpg"]{
+	height:150px;
+	width:150px;
+	margin-left:130px;
+	border: 5px solid #FFF;
+}
+.copyright{
+	text-align: center;
+	font-weight: bold;
+}
